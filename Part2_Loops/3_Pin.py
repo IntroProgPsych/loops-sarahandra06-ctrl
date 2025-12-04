@@ -20,3 +20,14 @@
 
 
 # Write your code here:
+pin = "4321"
+attempts = 0
+user_input = input("Enter pin: ")
+while user_input != pin:
+    user_input = input("Enter pin: ")
+    attempts += 1
+    if user_input == pin:
+        break
+    else:
+        print("wrong")
+print (f"Correct! Attempts: {attempts}")

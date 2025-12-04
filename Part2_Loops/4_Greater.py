@@ -11,3 +11,7 @@
 # 4
 
 # Write your code here:
+n = int(input("Enter a positive integer: "))
+
+for i in range(1, n):
+    print(i)

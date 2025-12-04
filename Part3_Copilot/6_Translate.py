@@ -36,4 +36,12 @@ translations = {
     "red": "roșu",
     "sun": "soare"
 }
-
+while True:
+    word = input("Word: ")
+    if word == "exit":
+        print("Goodbye!")
+        break
+    if word in translations:
+        print(translations[word])
+    else:
+        print("Word not found")
